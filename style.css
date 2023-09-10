@@ -1,0 +1,207 @@
+/*! Base CSS Start */
+
+:root {
+    --maincolor : #669CF5;
+    --background : #35424A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*! Base CSS End */
+
+/* Header Start */
+
+header {
+    background-color: var(--background);
+    color: #fff;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: 3px solid var(--maincolor);
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header #branding {
+    float: left;
+    margin-bottom: 30px;
+}
+
+header .current, .highlight {
+    color: var(--maincolor);
+    font-weight: bold;   
+}
+
+/* Header End */
+
+/* Showcase Start */
+
+#showcase {
+    background: url(udemigsoftwareimg/showcase.jpg) no-repeat -400px;
+    min-height: 400px;
+    color: #fff;
+    text-align: center;
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin: 100px 0 10px 0;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Showcase End */
+
+/* Newsletter Start */
+
+#newsletter {
+    background-color: var(--background);
+    padding: 15px 0;
+    color: #fff;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input {
+    width: 250px;
+    height: 37px;
+    padding: 5px;
+}
+
+.first_button {
+    height: 40px;
+    background-color: var(--maincolor);
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Newsletter End */
+
+/* Boxes Start */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+/* Boxes End */
+
+/* Main Start */
+
+.dark {
+    background-color: var(--background);
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article#main_col {
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input , aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+} 
+
+ul#services li {
+    background-color: #E6E6E6;
+    border: #ccc solid 1px;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+
+}
+
+/* Main End */
+
+/* Footer Start */
+
+footer {
+    background-color: var(--maincolor);
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Footer End */
