@@ -5,5 +5,16 @@
 <h2>Project Sections</h2>
 
 <ul>
-  <li>merhba</li>
+  <li>Home Page</li>
+  <li>About Us Page</li>
+  <li>Services Page</li>
+</ul>
+
+<h2>Used Technologies</h2>
+
+<h3>Used Languages</h3>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
 </ul>
