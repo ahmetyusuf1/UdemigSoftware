@@ -12,8 +12,6 @@
 
 <h2>Used Technologies</h2>
 
-<h3>Used Languages</h3>
-
 <ul>
   <li>HTML</li>
   <li>CSS</li>
